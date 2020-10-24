@@ -2,10 +2,11 @@ use Mix.Config
 
 # Configure your database
 config :wallet, Wallet.Repo,
-  username: "vinicius.arruda",
-  password: "monsterapi",
-  database: "wallet_dev",
-  hostname: "localhost",
+  username: "root",
+  password: "root",
+  database: "app_dev",
+  hostname: "app_mysql",
+  port: 3306,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
   
